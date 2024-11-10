@@ -1,0 +1,149 @@
+@font-face {
+  font-family: "Space Mono", monospace;
+  src: url(../public/fonts/SpaceMono-Bold.ttf);
+}
+@font-face {
+  font-family: "Space Mono", monospace;
+  src: url(../public/fonts/SpaceMono-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "Space Mono", monospace;
+  src: url(../public/fonts/SpaceMono-Italic.ttf);
+}
+@font-face {
+  font-family: "Space Mono", monospace;
+  src: url(../public/fonts/SpaceMono-Regular.ttf);
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* fonts */
+  --ff-primary: "Space Mono", monospace;
+  --line-height: 1.5;
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+  /* colors */
+  --clr-black-primary: #1a1a1a;
+  --clr-black-hover: #3c3c3c;
+  --clr-gray-1: #efefef;
+  --clr-gray-2: #888888;
+  --clr-link: #646cff;
+  --clr-link-hover: #535bf2;
+  --clr-hover-react: #646cffaa;
+  --clr-hover-vite: #61dafbaa;
+  --clr-hover-typescript: #347effaa;
+
+  font-family: var(--ff-primary);
+  line-height: var(--line-height);
+  font-weight: var(--font-weight-400);
+  color: var(--clr-black-primary);
+  background-color: var(--clr-gray-1);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: var(--font-weight-700);
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: var(--font-weight-700);
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: var(--font-weight-700);;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: var(--font-weight-700);;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  font-weight: var(--font-weight-400);
+  color: var(--clr-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--clr-link-hover);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-family: inherit;
+  color: white;
+  background: var(--clr-black-primary);
+  cursor: pointer;
+  will-change: transform, border;
+  transition: transform 0.3s, border 0.3s, background 0.3s; 
+}
+
+button:hover {
+  background: var(--clr-black-hover);
+}
+
+button:active {
+  transform: translateY(2px);
+  border: 1px solid var(--clr-link);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 64px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  body {
+    font-size: 16px;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}

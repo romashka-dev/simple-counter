@@ -1,0 +1,10 @@
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 100px;
+}
+
+.buttons__item:hover {
+  border: 1px solid transparent;
+}

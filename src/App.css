@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px;
+  text-align: center;
+}
+
+.counter__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: center;
+}
+  
+.counter__result {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 64px;
+  font-weight: var(--font-weight-700);
+  text-align: center;
+}
