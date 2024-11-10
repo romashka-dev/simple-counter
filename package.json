@@ -1,7 +1,9 @@
 {
-  "name": "reactjs-project-2024",
-  "private": true,
-  "version": "0.0.0",
+  "name": "simple-counter",
+  "private": false,
+  "version": "0.1.1",
+  "license": "MIT",
+  "author": "romashka-dev",
   "type": "module",
   "scripts": {
     "dev": "vite",
