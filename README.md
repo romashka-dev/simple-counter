@@ -48,3 +48,6 @@ export default tseslint.config({
   },
 })
 ```
+
+## Netlify status badge
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cf9e3455-6b97-49a0-8cf1-56a60baa4047/deploy-status)](https://app.netlify.com/sites/simple-counter-pp/deploys)
