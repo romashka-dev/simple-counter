@@ -32,5 +32,12 @@ npm install
 npm run dev
 ```
 
+## Usage
+• **Increment:** Click the "Increment" button to increase the count.
+
+• **Decrement:** Click the "Decrement" button to decrease the count.
+
+• **Reset:** Click "Reset" to return to the starting count.
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
