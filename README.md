@@ -5,15 +5,22 @@ A simple yet powerful counter application built using ReactJS and TypeScript to 
 
 ## Features
 • **Increment/Decrement** functionality for intuitive count adjustments
+
 • **Reset Button** to revert the counter to the initial state
+
 • **Responsive** design for seamless use on various devices
+
 • **Type-Safe Components** ensuring error-free development with TypeScript
+
 • **State Management** with React `useState` for efficient updates
+
 • **Vite Bundling** for fast refresh and optimized performance
 
 ## Getting Started
 1. **Clone the repository:**
-```git clone https://github.com/yourusername/react-typescript-counter.git```
+```
+git clone https://github.com/yourusername/react-typescript-counter.git
+```
 
 2. **Install dependencies:**
 ```cd react-typescript-counter
@@ -21,7 +28,9 @@ npm install
 ```
 
 3. **Run the app:**
-```npm run dev```
+```
+npm run dev
+```
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
