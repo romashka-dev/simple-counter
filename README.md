@@ -23,7 +23,8 @@ git clone https://github.com/romashka-dev/simple-counter.git
 ```
 
 2. **Install dependencies:**
-```cd react-typescript-counter
+```
+cd react-typescript-counter
 npm install
 ```
 
